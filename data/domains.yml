@@ -1,0 +1,45 @@
+
+- type: domains
+  domains:
+  - url: "18f.gov"
+    status: "active"
+    office: "18f"
+  - url: "challenges.gov"
+    status: "redirect"
+    office: "solutions"
+
+
+
+
+businessusa.gov
+challenge.gov
+challenges.gov
+citizenscience.gov
+cloud.gov
+code.gov
+connect.gov
+consumeraction.gov
+data.gov
+digital.gov
+digitalgov.gov
+everykidinapark.gov
+ecpic.gov
+firstgov.gov
+fedramp.gov
+forms.gov
+gobiernousa.gov
+howto.gov
+identitysandbox.gov
+info.gov
+innovation.gov
+kids.gov
+login.gov
+pif.gov
+plainlanguage.gov
+presidentialinnovationfellows.gov
+sandbox.gov
+search.gov
+us.gov
+usa.gov
+usagov.gov
+vote.gov
