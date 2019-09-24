@@ -1,44 +1,130 @@
-
 - type: domains
   domains:
-  - url: "18f.gov"
+  - id: "18f"
+    url: "18f.gov"
     status: "active"
     office: "18f"
-  - url: "challenges.gov"
+  - id: "challenges"
+    url: "challenges.gov"
     status: "redirect"
     office: "solutions"
-
-
-
-
-businessusa.gov
-challenge.gov
-citizenscience.gov
-cloud.gov
-code.gov
-connect.gov
-consumeraction.gov
-data.gov
-digital.gov
-digitalgov.gov
-everykidinapark.gov
-ecpic.gov
-firstgov.gov
-fedramp.gov
-forms.gov
-gobiernousa.gov
-howto.gov
-identitysandbox.gov
-info.gov
-innovation.gov
-kids.gov
-login.gov
-pif.gov
-plainlanguage.gov
-presidentialinnovationfellows.gov
-sandbox.gov
-search.gov
-us.gov
-usa.gov
-usagov.gov
-vote.gov
+  - id: "challenge"
+    url: "challenge.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "citizenscience"
+    url: "citizenscience.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "cloud"
+    url: "cloud.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "connect"
+    url: "connect.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "consumeraction"
+    url: "consumeraction.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "data"
+    url: "data.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "digital"
+    url: "digital.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "digitalgov"
+    url: "digitalgov.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "everykidinapark"
+    url: "everykidinapark.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "ecpic"
+    url: "ecpic.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "firstgov"
+    url: "firstgov.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "fedramp"
+    url: "fedramp.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "forms"
+    url: "forms.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "gobiernousa"
+    url: "gobiernousa.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "howto"
+    url: "howto.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "identitysandbox"
+    url: "identitysandbox.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "info"
+    url: "info.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "innovation"
+    url: "innovation.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "kids"
+    url: "kids.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "login"
+    url: "login.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "pif"
+    url: "pif.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "plainlanguage"
+    url: "plainlanguage.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "presidentialinnovationfellows"
+    url: "presidentialinnovationfellows.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "sandbox"
+    url: "sandbox.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "search"
+    url: "search.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "us"
+    url: "us.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "usa"
+    url: "usa.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "usagov"
+    url: "usagov.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "usagov"
+    url: "usagov.gov"
+    status: "TKTK"
+    office: "TKTK"
+  - id: "vote"
+    url: "vote.gov"
+    status: "TKTK"
+    office: "TKTK"
