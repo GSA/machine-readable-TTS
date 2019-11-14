@@ -1,0 +1,4 @@
+- domain: "data.gov"
+  websites:
+  - name: "api.data.gov"
+  - name: "www.data.gov"
