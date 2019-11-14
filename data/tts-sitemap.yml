@@ -2,3 +2,8 @@
   websites:
   - name: "api.data.gov"
   - name: "www.data.gov"
+- domain: "usa.gov"
+  websites:
+  - name: "vote.usa.gov"
+  - name: "www.usa.gov"
+
