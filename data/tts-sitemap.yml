@@ -3,6 +3,7 @@
   - name: "api.data.gov"
   - name: "federation.data.gov"
   - name: "inventory.data.gov"
+  - name: "strategy.data.gov"
   - name: "www.data.gov"
 - domain: "usa.gov"
   websites:
