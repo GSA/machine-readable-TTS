@@ -1,20 +1,546 @@
-- type: websites
-  websites:
-  - id: "api.data.gov"
-    domain: "data.gov"
-    status: "production"
-    office: "Solutions"
-    repo: "https://github.com/18F/api.data.gov"
-    poc: "api.data.gov@gsa.gov"
-  - id: "www.data.gov"
-    domain: "data.gov"
-    status: "production"
-    office: "Solutions"
-    repo: "https://github.com/18F/data.gov"
-    poc: "datagov@gsa.gov"
-  - id: "www.18f.gov"
-    domain: "18f.gov"
-    status: "production"
-    office: "18F"
-    repo: "https://github.com/18F/18f.gsa.gov"
-    poc: "18f-outreach@gsa.gov"
+-
+  id: asis.search.gov
+  domain: search.gov
+  type: not-a-website
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: i14y.search.gov
+  domain: search.gov
+  type: not-a-website
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: kibana.search.gov
+  domain: search.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: kibana5.search.gov
+  domain: search.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: developers.login.gov
+  domain: login.gov
+  type: website
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: staging.login.gov
+  domain: login.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: app.brody.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: app.markryan.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: brody.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: crissupb.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: dashboard.brody.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: dashboard.markryan.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: dev.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: int.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: jjg.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: markryan.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: qa.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: sp-oidc-sinatra.brody.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: sp-oidc-sinatra.markryan.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: sp-rails.brody.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: sp-rails.markryan.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: sp-sinatra.brody.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: sp-sinatra.markryan.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: sp.brody.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: sp.crissupb.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: sp.dev.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: sp.int.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: sp.jjg.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: sp.markryan.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: sp.qa.identitysandbox.gov
+  domain: identitysandbox.gov
+  type: staging
+  portfolio: logingov
+  repo: ""
+  contact: ""
+-
+  id: 18f.domains.api.data.gov
+  domain: data.gov
+  type: not-a-website
+  portfolio: data-analytics
+  repo: 'https://github.com/gsa/data.gov'
+  contact: datagov@gsa.gov
+-
+  id: crm-labs.data.gov
+  domain: data.gov
+  type: not-a-website
+  portfolio: data-analytics
+  repo: 'https://github.com/gsa/data.gov'
+  contact: datagov@gsa.gov
+-
+  id: dashboard-labs.data.gov
+  domain: data.gov
+  type: not-a-website
+  portfolio: data-analytics
+  repo: 'https://github.com/gsa/data.gov'
+  contact: datagov@gsa.gov
+-
+  id: federation-staging.data.gov
+  domain: data.gov
+  type: not-a-website
+  portfolio: data-analytics
+  repo: 'https://github.com/gsa/data.gov'
+  contact: datagov@gsa.gov
+-
+  id: resources-staging.data.gov
+  domain: data.gov
+  type: not-a-website
+  portfolio: data-analytics
+  repo: 'https://github.com/gsa/data.gov'
+  contact: datagov@gsa.gov
+-
+  id: sdg-staging.data.gov
+  domain: data.gov
+  type: not-a-website
+  portfolio: data-analytics
+  repo: 'https://github.com/gsa/data.gov'
+  contact: datagov@gsa.gov
+-
+  id: staging.api.data.gov
+  domain: data.gov
+  type: not-a-website
+  portfolio: data-analytics
+  repo: 'https://github.com/gsa/data.gov'
+  contact: datagov@gsa.gov
+-
+  id: static.data.gov
+  domain: data.gov
+  type: not-a-website
+  portfolio: data-analytics
+  repo: 'https://github.com/gsa/data.gov'
+  contact: datagov@gsa.gov
+-
+  id: api.code.gov
+  domain: code.gov
+  type: not-a-website
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/code-gov'
+  contact: code@gsa.gov
+-
+  id: staging.code.gov
+  domain: code.gov
+  type: staging
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/code-gov'
+  contact: code@gsa.gov
+-
+  id: asis.search.usa.gov
+  domain: usa.gov
+  type: not-a-website
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: buscador.usa.gov
+  domain: usa.gov
+  type: redirects
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: demo1.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: demo1.staging.infr.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: demo2.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: demo2.staging.infr.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: demo3.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: demo3.staging.infr.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: i14y.search.usa.gov
+  domain: usa.gov
+  type: not-a-website
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: i14y.usa.gov
+  domain: usa.gov
+  type: not-a-website
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: kibana.demo1.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: kibana.demo2.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: kibana.demo3.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: kibana.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: kibana5.demo1.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: kibana5.demo2.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: kibana5.demo3.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: proxylb.us-east-1.infr.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: resque.demo1.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: resque.demo2.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: resque.demo3.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: resque.search.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: smarter-it
+  repo: 'https://github.com/GSA/search-gov'
+  contact: search@support.digitalgov.gov
+-
+  id: answers.usa.gov
+  domain: usa.gov
+  type: redirect
+  portfolio: ""
+  repo: ""
+  contact: ""
+-
+  id: apps.usa.gov
+  domain: usa.gov
+  type: redirect
+  portfolio: ""
+  repo: ""
+  contact: ""
+-
+  id: business.usa.gov
+  domain: usa.gov
+  type: redirect
+  portfolio: ""
+  repo: ""
+  contact: ""
+-
+  id: cm-jira.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: ""
+  repo: ""
+  contact: ""
+-
+  id: consumercomplaintletter.usa.gov
+  domain: usa.gov
+  type: nonpublic
+  portfolio: ""
+  repo: ""
+  contact: ""
+-
+  id: 'feedback-staging.usa.gov '
+  domain: usa.gov
+  type: staging.usa.gov
+  portfolio: ""
+  repo: ""
+  contact: ""
+-
+  id: gobierno.usa.gov
+  domain: usa.gov
+  type: redirect
+  portfolio: ""
+  repo: ""
+  contact: ""
+-
+  id: kids.usa.gov
+  domain: usa.gov
+  type: redirect
+  portfolio: ""
+  repo: ""
+  contact: ""
+-
+  id: m.usa.gov
+  domain: usa.gov
+  type: redirect
+  portfolio: ""
+  repo: ""
+  contact: ""
+-
+  id: notice.usa.gov
+  domain: usa.gov
+  type: redirect
+  portfolio: ""
+  repo: ""
+  contact: ""
+-
+  id: notifications.usa.gov
+  domain: usa.gov
+  type: redirect
+  portfolio: ""
+  repo: ""
+  contact: ""
+-
+  id: openopen-staging.usa.gov
+  domain: usa.gov
+  type: staging
+  portfolio: ""
+  repo: ""
+  contact: ""
+-
+  id: promotions.usa.gov
+  domain: usa.gov
+  type: redirect
+  portfolio: ""
+  repo: ""
+  contact: ""
+-
+  id: publications.usa.gov
+  domain: usa.gov
+  type: redirect
+  portfolio: ""
+  repo: ""
+  contact: ""
+-
+  id: tell-us.usa.gov
+  domain: usa.gov
+  type: redirect
+  portfolio: ""
+  repo: ""
+  contact: ""
+-
+  id: tellus.usa.gov
+  domain: usa.gov
+  type: redirect
+  portfolio: ""
+  repo: ""
+  contact: ""
