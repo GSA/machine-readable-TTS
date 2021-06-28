@@ -1,1 +1,18 @@
-...
+- type: metrics
+  metrics:
+  - product_id: "touchpoints"
+    key: users_count
+    value: 300
+    frequency: 7
+  - product_id: "touchpoints"
+    key: organizations_count
+    value: 30
+    frequency: 7
+  - product_id: "touchpoints"
+    key: forms_count
+    value: 230
+    frequency: 7
+  - product_id: "touchpoints"
+    key: responses_count
+    value: 60000
+    frequency: 7
