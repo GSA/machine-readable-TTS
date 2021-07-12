@@ -10,3 +10,5 @@ The API needs to be documented and accessible.
 The file must be automatically kept up to date.  
 
 ## Google Spreadsheets
+
+Google Sheets can be accessed internally within GSA by other Google Sheets via formulas.  
