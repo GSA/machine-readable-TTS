@@ -1,4 +1,4 @@
-- component: Data and Analytics Portfolio - Office of Products and Programs
+- component: Data and Analytics Portfolio - Solutions
   projects:
   - name: "api.data.gov"
     description: "A shared service for federal agencies that provides api keys and api management as a service."
@@ -32,7 +32,7 @@
     issue-tracker: "https://github.com/GSA/feedback.usa.gov/issues"
     metrics-api: ""
     write-api: ""
-- component: Smarter IT Solutions Portfolio - Office of Products and Programs
+- component: Smarter IT Solutions Portfolio - Solutions
   projects:
   - name: "code.gov"
     description: "We are America's primary platform for aggregating Open Source Software from the federal government."
