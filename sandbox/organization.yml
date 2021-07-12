@@ -1,4 +1,4 @@
-- name: Office of Products and Programs
+- name: Solutions
   components:
   - team: "Cloud Portfolio"
     project: "FedRAMP"
